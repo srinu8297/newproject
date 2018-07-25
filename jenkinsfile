@@ -2,7 +2,7 @@ node {
     stage('scm') {
     // some block
 
-        git 'https://github.com/srinu891/game-of-life.git'
+        git 'https://github.com/srinu8297/newproject.git'
     }
 
 stage('maven') {
@@ -13,5 +13,4 @@ stage('maven') {
     // some block
     archiveArtifacts 'gameoflife-web\\target\\*.war'
 }
-    
-}
+  }
